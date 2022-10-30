@@ -1,10 +1,10 @@
 # Site settings
-title: The Data Engineer Newsletter
+title: The Data Engineering Directory
 email: daynesorvisto@yahoo.ca
 url: https://github.com/daynesorvisto
-description: "A place for all data professionals to share knowledge"
+description: "A professional network of resources for data engineers of all kinds"
 keywords: "ML Ops, data science, data engineering, machine learning, analytics"
-skills: "A curated index of high quality tutorials, articles, newsletters and blogs for data engineering."
+skills: "A curated index of high quality tutorials, articles, journals related to data engineering"
 meta_author: Sorvisto Dayne
 
 # Google webmaster tools
