@@ -1,10 +1,10 @@
 # Site settings
-title: WL Data Consulting 
+title: The Data Engineer Newsletter
 email: daynesorvisto@yahoo.ca
 url: https://github.com/daynesorvisto
-description: "WL Data Consulting founded in Calgary, Alberta"
-keywords: "data science, code coaching, IT contracting"
-skills: "Data Engineer - Data Scientist - Coding Coach"
+description: "A place for all data professionals to share knowledge"
+keywords: "ML Ops, data science, data engineering, machine learning, analytics"
+skills: ""
 meta_author: Sorvisto Dayne
 
 # Google webmaster tools
