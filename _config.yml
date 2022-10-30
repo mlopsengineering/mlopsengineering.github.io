@@ -1,10 +1,10 @@
 # Site settings
-title: Index of Data Engineering
+title: The Index
 email: daynesorvisto@yahoo.ca
 url: https://github.com/daynesorvisto
-description: "An index of resources for data engineers"
+description: "An index of high quality tutorials, resources, journals sourced from around thte web."
 keywords: "ML Ops, data science, data engineering, machine learning, analytics"
-skills: "A curated index of high quality tutorials, articles, journals related to data engineering"
+skills: "A newsletter for keeping track of emerging fields within the applied data science space"
 meta_author: Sorvisto Dayne
 
 # Google webmaster tools
