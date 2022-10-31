@@ -2,7 +2,6 @@
  <br/>
  <br/>
 <br/>
-Subscribe to receive premium news on data science mined from 10,000 sources.
 
 <br/>
 <!-- Begin Mailchimp Signup Form -->
@@ -14,6 +13,8 @@ Subscribe to receive premium news on data science mined from 10,000 sources.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="centerwrap">  
+Subscribe to receive premium news on data science mined from 10,000 sources.
+
 <div id="mc_embed_signup">
 <form action="https://gmail.us19.list-manage.com/subscribe/post?u=8dce27fbea884d84c15d1ea9e&amp;id=7f8f2c9947" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
