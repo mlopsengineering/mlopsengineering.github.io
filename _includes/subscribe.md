@@ -2,7 +2,7 @@
  <br/>
  <br/>
 <br/>
-Receive premium news on data science and analytics from over 10,000 sources. Subscribe below: 
+Subscribe to receive premium news on data science mined from 10,000 sources.
 
 <br/>
 <!-- Begin Mailchimp Signup Form -->
