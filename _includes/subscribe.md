@@ -2,7 +2,7 @@
  <br/>
  <br/>
 <br/>
-Receive free code tips, networking and job opportunities. Subscribe to our Alberta coders network: 
+Receive premium news on data science and analytics from over 10,000 sources. Subscribe below: 
 
 <br/>
 <!-- Begin Mailchimp Signup Form -->
