@@ -20,7 +20,6 @@ Subscribe to receive premium news on data science mined from 10,000 sources.
 
 <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
     </div>
-</form>
 </div>
 
 <br/>
