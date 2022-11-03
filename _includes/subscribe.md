@@ -22,7 +22,6 @@ Subscribe to receive premium news on data science mined from 10,000 sources.
     </div>
 </form>
 </div>
-</div>
 
 <br/>
 <br/>
