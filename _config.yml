@@ -1,10 +1,10 @@
 # Site settings
-title: Singularity Clock 
+title: Singularity Crunch
 email: daynesorvisto@yahoo.ca
 url: https://github.com/daynesorvisto
 description: "An index of high quality tutorials, resources, journals sourced from around thte web."
 keywords: "ML Ops, data science, data engineering, machine learning, analytics"
-skills: "A newsletter for keeping track of emerging fields within the applied data science space"
+skills: "A newsletter for counting down to the singularity: Latest advances in Machine Learning and AI research"
 meta_author: Sorvisto Dayne
 
 # Google webmaster tools
