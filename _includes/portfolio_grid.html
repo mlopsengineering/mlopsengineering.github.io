@@ -92,6 +92,8 @@ body::after {
                 </div>
             </div>
             <div class="row">
+                <div class="clock">
+                </div>
                 {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
@@ -104,7 +106,6 @@ body::after {
                         </a>
                     </div>
                 {% endfor %}
-            <div class="clock"></div>
             </div>
         </div>
     </section>
