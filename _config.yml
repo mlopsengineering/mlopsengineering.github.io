@@ -45,7 +45,7 @@ social:
 
 
 # Credits content
-credits: 'This site was custom coded by WL Data Consulting'
+credits: 'This site was custom coded in Ruby, Python and Javascript'
 
 # Build settings
 markdown: kramdown
