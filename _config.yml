@@ -1,11 +1,11 @@
 # Site settings
-title: Singularity Crunch
+title: Singularity Clock
 email: daynesorvisto@yahoo.ca
-url: https://github.com/daynesorvisto
+url: https://github.com/
 description: "An index of high quality tutorials, resources, journals sourced from around thte web."
 keywords: "ML Ops, data science, data engineering, machine learning, analytics"
-skills: "Tracking latest advancements in AI research"
-meta_author: Sorvisto Dayne
+skills: "Tracking highest impact advancements in applied AI research"
+meta_author: Singularity Clock
 
 # Google webmaster tools
 google_verify:
@@ -32,16 +32,15 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dayne Wyatt Lee Sorvisto
-  location: Calgary, Alberta
+  copyright: Singularity Clock
   social: Around the Web
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: stack-overflow
-    url: https://stackoverflow.com/users/5344583/mrl
+    url: 
   - title: github
-    url: http://github.com/daynesorvisto
+    url: http://github.com/
 
 
 
