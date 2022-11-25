@@ -1,10 +1,10 @@
 # Site settings
-title: Singularity News
+title: MLOps Engineering
 email: daynesorvisto@yahoo.ca
 url: https://github.com/
-description: "An newsletter of high quality tutorials, resources, journals sourced from around thte web."
-keywords: "ML Ops, data science, data engineering, machine learning, analytics"
-skills: "Tracking highest impact advancements in applied AI research"
+description: "An open source autoresponder newsletter for tracking latest MLOps Engineering alerts"
+keywords: "ML Ops, data science, data engineering, machine learning"
+skills: "Tracking MLOps papers, architectures and engineering best practices"
 meta_author: Singularity Clock
 
 # Google webmaster tools
