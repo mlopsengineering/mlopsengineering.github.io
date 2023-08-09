@@ -67,32 +67,6 @@
       background-color: #000;
       color: #fff;
     }
-    .navbar-toggle {
-      display: none;
-      cursor: pointer;
-    }
-    @media screen and (max-width: 768px) {
-      .navbar a:not(:first-child) {
-        display: none;
-      }
-      .navbar a.icon {
-        float: right;
-        display: block;
-      }
-      .navbar.responsive {
-        position: relative;
-      }
-      .navbar.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .navbar.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-      }
-    }
   </style>
 </head>
 <body>
@@ -102,7 +76,6 @@
     <a href="#about">About</a>
     <a href="#portfolio">Portfolio</a>
     <a href="#contact">Contact</a>
-    <a class="icon" onclick="toggleNav()">&#9776;</a>
   </div>
 
   <!-- About Section -->
@@ -125,17 +98,5 @@
   </section>
 
   <!-- Continue with the rest of your HTML content -->
-
-  <script>
-    // Toggle responsive navigation bar
-    function toggleNav() {
-      var x = document.getElementById("myNavbar");
-      if (x.className === "navbar") {
-        x.className += " responsive";
-      } else {
-        x.className = "navbar";
-      }
-    }
-  </script>
 </body>
 </html>
