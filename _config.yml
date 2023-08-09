@@ -1,63 +1,141 @@
-# Site settings
-title: Data&
-email: 
-url: https://github.com/
-description: "Welcome to my portfolio"
-keywords: "networking, personal blog, data science portfolio"
-skills: ""
-meta_author: n/a
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Title Here</title>
+  <!-- Include your CSS stylesheets and other head elements here -->
+  <style>
+    body {
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      color: #000000;
+      font-family: Arial, sans-serif;
+    }
+    .success {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      padding: 20px;
+    }
+    .enclave-content {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .enclave-heading {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      font-size: 18px;
+      padding: 10px 20px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      background: transparent;
+      color: #000;
+      text-decoration: none;
+      transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    .btn:hover,
+    .btn:focus,
+    .btn:active,
+    .btn.active {
+      background: #000;
+      color: #fff;
+    }
+    /* Navigation Bar Styles */
+    .navbar {
+      background-color: transparent;
+      overflow: hidden;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    .navbar a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    .navbar-toggle {
+      display: none;
+      cursor: pointer;
+    }
+    @media screen and (max-width: 768px) {
+      .navbar a:not(:first-child) {
+        display: none;
+      }
+      .navbar a.icon {
+        float: right;
+        display: block;
+      }
+      .navbar.responsive {
+        position: relative;
+      }
+      .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar" id="myNavbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <a class="icon" onclick="toggleNav()">&#9776;</a>
+  </div>
 
-# Google webmaster tools
-google_verify:
+  <!-- About Section -->
+  <section class="success" id="about">
+    <div class="container">
+      <h2 class="enclave-heading">Crafting Connections: Where Strategy Meets Data</h2>
+      <div class="enclave-content">
+        <p>
+          Welcome to "Crafting Connections," a unique enclave designed to bridge the worlds of strategy and data. As an avid seeker of knowledge and a passionate data enthusiast, I've envisioned a space where experts and decision makers converge to weave a tapestry of insights and ideas.
+        </p>
+        <!-- ... (continue inserting the rest of the provided content) ... -->
+        <p>
+          So, join me in shaping this shared space, where connections are forged, ideas are ignited, and data strategy flourishes. Together, we'll navigate uncharted waters, embrace insights, and chart a course that leads us to a horizon brimming with possibilities.
+        </p>
+      </div>
+      <a href="/subscribe" class="btn btn-lg">
+        <i class="fa fa-download"></i> Subscribe Now
+      </a>
+    </div>
+  </section>
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+  <!-- Continue with the rest of your HTML content -->
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: #ffffff   # Set to white
-  primary-rgb: "255,255,255"
-  secondary: #000000  # Set to black
-  secondary-dark: #333333
-
-# Footer settings
-footer:
-  copyright: DWLS
-  social: Around the Web
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: stack-overflow
-    url: 
-  - title: github
-    url: http://github.com/
-
-# Credits content
-credits: 'This site was custom coded in Ruby, Python and Javascript'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
-
-collections:
-   blogs:
-      output: true
-      permalink: /blog/:path/
+  <script>
+    // Toggle responsive navigation bar
+    function toggleNav() {
+      var x = document.getElementById("myNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+</body>
+</html>
