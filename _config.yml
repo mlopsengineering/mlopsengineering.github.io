@@ -1,11 +1,11 @@
 # Site settings
-title: MLOps Engineering
+title: 
 email: daynesorvisto@yahoo.ca
 url: https://github.com/
-description: "An open source autoresponder newsletter for tracking latest MLOps Engineering alerts"
-keywords: "ML Ops, data science, data engineering, machine learning"
-skills: "Tracking MLOps papers, architectures and engineering best practices"
-meta_author: Singularity Clock
+description: "Navigating Knowledge, One contact at a time."
+keywords: "MLOps, data science, data engineering, analytics, strategy, networking"
+skills: "Navigating Knowledge, One Byte at a Time."
+meta_author: n/a
 
 # Google webmaster tools
 google_verify:
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Singularity Clock
+  copyright: DWLS
   social: Around the Web
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
