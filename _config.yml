@@ -31,6 +31,7 @@
     .enclave-heading {
       font-size: 24px;
       margin-bottom: 20px;
+      color: #000000; /* Set the color of the header text */
     }
     .btn {
       font-size: 18px;
