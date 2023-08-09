@@ -14,7 +14,7 @@ google_verify:
 bing_verify:
 
 # Contact form:
-# - static : pass through formspree.io to validate email sending
+# - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -25,10 +25,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: a89232 #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: #ffffff   # Set to white
+  primary-rgb: "255,255,255"
+  secondary: #000000  # Set to black
+  secondary-dark: #333333
 
 # Footer settings
 footer:
@@ -41,8 +41,6 @@ social:
     url: 
   - title: github
     url: http://github.com/
-
-
 
 # Credits content
 credits: 'This site was custom coded in Ruby, Python and Javascript'
@@ -58,7 +56,6 @@ defaults:
       type: "posts"
     values:
       permalink: ""
-
 
 collections:
    blogs:
