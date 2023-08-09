@@ -8,9 +8,11 @@
   <style>
     body {
       /* Set the background color for the rest of the page */
-      background-color: #your-color-here;
+      background-color: #ffffff;
       margin: 0;
       padding: 0;
+      color: #333;
+      font-family: Arial, sans-serif;
     }
     .success {
       /* Add any desired styling for the About Section */
@@ -27,7 +29,6 @@
     }
     .enclave-content {
       /* Add any desired styling for the enclave content */
-      color: #333;
       font-size: 18px;
       line-height: 1.5;
     }
@@ -35,6 +36,23 @@
       /* Add any desired styling for the heading */
       font-size: 24px;
       margin-bottom: 20px;
+    }
+    .btn {
+      font-size: 18px;
+      padding: 10px 20px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      background: transparent;
+      color: #000;
+      text-decoration: none;
+      transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    .btn:hover,
+    .btn:focus,
+    .btn:active,
+    .btn.active {
+      background: #000;
+      color: #fff;
     }
   </style>
 </head>
@@ -52,7 +70,7 @@
           So, join me in shaping this shared space, where connections are forged, ideas are ignited, and data strategy flourishes. Together, we'll navigate uncharted waters, embrace insights, and chart a course that leads us to a horizon brimming with possibilities.
         </p>
       </div>
-      <a href="/subscribe" class="btn btn-lg btn-outline">
+      <a href="/subscribe" class="btn btn-lg">
         <i class="fa fa-download"></i> Subscribe Now
       </a>
     </div>
